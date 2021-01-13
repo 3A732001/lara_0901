@@ -35,3 +35,4 @@ class AdminPostsController extends Controller
         Post::create($request->all());
         return redirect()->route('admin.posts.index');
     }
+}
